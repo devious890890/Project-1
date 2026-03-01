@@ -1,11 +1,10 @@
-print("What is The answer to The square root of 625?")
-print("A. 35")
-print("B. 65")
-print("C. 20")
-print("D. 25")
+print("Think of A number")
+number = int(input("Enter number here: "))
+print("is your number divisible by 2")
+answer= input("Enter answer here: ")
+print("A. Yes")
+print("B. No")
 
-answer = input("Write your here: ")
-
-if answer == ("D"):
-    print("You got it correct")
-else:print("Incorrect answer.")
+if answer == "Yes":
+    print(f"{number} is an even number")
+else:print(f"{number} is an an odd number")
